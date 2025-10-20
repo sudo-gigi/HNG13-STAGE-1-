@@ -86,6 +86,7 @@ To clean up all deployed resources (stop/remove containers, remove transferred f
 ## 🚀 Deployment Workflow Diagram
 
 ```mermaid
+%%{init: {"flowchart": {"nodeSpacing": 50, "rankSpacing": 50}}}%%
 flowchart TD
     A[💻 Local Machine] -->|🚀 Run deploy.sh| B[📂 Clone or Pull Git Repository]
     B --> C[🔍 Validate Dockerfile / docker-compose.yml]
