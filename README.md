@@ -88,14 +88,14 @@ To clean up all deployed resources (stop/remove containers, remove transferred f
 ```mermaid
 %%{init: {"flowchart": {"nodeSpacing": 50, "rankSpacing": 50}}}%%
 flowchart TD
-    A[💻 Local Machine] -->|🚀 Run deploy.sh| B[📂 Clone or Pull\nGit Repository]
-    B --> C[🔍 Validate \nDockerfile /\ndocker-compose.yml]
+    A[💻 Local Machine] -->|🚀 Run deploy.sh| B[📂 Clone or Pull Git Repository]
+    B --> C[🔍 Validate Dockerfile /docker-compose.yml]
     C --> D[🔑 SSH to Remote Server]
-    D --> E[⚙️ Prepare Remote\n Environment]
-    E --> F[📤 Transfer Application\nvia rsync]
-    F --> G[🐳 Build & Run\nDocker Container]
-    G --> H[🌐 Configure Nginx\nReverse Proxy]            
-    H --> I[✅ Test Deployment\nvia curl]
+    D --> E[⚙️ Prepare Remote Environment]
+    E --> F[📤 Transfer Application via rsync]
+    F --> G[🐳 Build & Run nDocker Container]
+    G --> H[🌐 Configure Nginx Reverse Proxy]            
+    H --> I[✅ Test Deployment via curl]
     I --> J[📝 Log Deployment Steps]
     J --> K[🏁 Deployment Complete 🎉]
 
