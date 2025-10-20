@@ -99,6 +99,19 @@ flowchart TD
     I --> J[📝 Log Deployment Steps]
     J --> K[🏁 Deployment Complete 🎉]
 
+    %% Make all nodes auto-resize to fit content
+    style A width:auto
+    style B width:auto
+    style C width:auto
+    style D width:auto
+    style E width:auto
+    style F width:auto
+    style G width:auto
+    style H width:auto
+    style I width:auto
+    style J width:auto
+    style K width:auto
+
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style K fill:#0f0,stroke:#333,stroke-width:2px
 ```
