@@ -98,8 +98,8 @@ flowchart TD
     I --> J[📝 Log Deployment Steps]
     J --> K[🏁 Deployment Complete 🎉]
 
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style K fill:#0f0,stroke:#333,stroke-width:2px
+    style A fill:#f9f,stroke:#333,stroke-width:5px
+    style K fill:#0f0,stroke:#333,stroke-width:5px
 ```
 
 <details>
